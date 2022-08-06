@@ -21,6 +21,7 @@
 int secretNumber = 7;
 int popytki = 3;
 while(popytki>0)
+bool flagWin = false;
 {
     Console.WriteLine("Ввудите число от 1 до 10");
     int userNumber = Convert.ToInt32(Console.ReadLine());
@@ -36,7 +37,11 @@ while(popytki>0)
     else
     {
         Console.WriteLine("Мы выиграли");
+        flagWin = true;
         break;
     }
 
+}if (!flagWin)
+{
+        Console.WriteLine("Мы проиграли. Числ было" +secretNumber);
 }
