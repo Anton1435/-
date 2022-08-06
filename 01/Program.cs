@@ -24,8 +24,9 @@ bool flagWin = false;
 while(popytki>0)
 
 {
-    Console.WriteLine("Ввудите число от 1 до 10");
-    int userNumber = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Ввидите число от 1 до 10");
+    string str = Console.ReadLine();
+    int userNumber = Convert.ToInt32(str);
     popytki-=1;//popytki--
     if(userNumber>secretNumber)
     {
