@@ -20,8 +20,9 @@
 
 int secretNumber = 7;
 int popytki = 3;
-while(popytki>0)
 bool flagWin = false;
+while(popytki>0)
+
 {
     Console.WriteLine("Ввудите число от 1 до 10");
     int userNumber = Convert.ToInt32(Console.ReadLine());
@@ -29,7 +30,7 @@ bool flagWin = false;
     if(userNumber>secretNumber)
     {
         Console.WriteLine("Секретное число меньше");
-        Console.WriteLine("Попыток осталось"+ popytki ");
+        Console.WriteLine("Попыток осталось"+ popytki);
     }else if(userNumber<secretNumber)
     {
         Console.WriteLine("Секретное число больше");
