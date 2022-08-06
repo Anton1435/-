@@ -18,7 +18,7 @@
 
 
 
-int secretNumber = 7;
+int secretNumber = new Random().Next(1,11);
 int popytki = 3;
 bool flagWin = false;
 while(popytki>0)
