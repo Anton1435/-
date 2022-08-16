@@ -45,5 +45,5 @@ while(popytki>0)
 
 }if (!flagWin)
 {
-        Console.WriteLine("Мы проиграли. Числ было" +secretNumber);
+     ///   Console.WriteLine("Мы проиграли. Числ было" +secretNumber);
 }
